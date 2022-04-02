@@ -10,19 +10,20 @@ import java.io.IOException;
 /**
  * @author bantanger 半糖
  * @version 1.0
- * @Date 2022/4/2 16:35
+ * @Date 2022/4/2 17:16
  */
-public class HelloServlet extends HttpServlet {
+public class GetServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext context = this.getServletContext();
-        String username = "yiyiwang";
-        context.setAttribute("username",username);
-
+        String username = (String) context.getAttribute("username");
+        resp.setCharacterEncoding("utf8");
+        resp.setContentType("text/html");
+        resp.getWriter().print("名字=" + username);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doPost(req, resp);
+       doPost(req, resp);
     }
 }

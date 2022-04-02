@@ -10,15 +10,14 @@ import java.io.IOException;
 /**
  * @author bantanger 半糖
  * @version 1.0
- * @Date 2022/4/2 16:35
+ * @Date 2022/4/2 17:41
  */
-public class HelloServlet extends HttpServlet {
+public class ServletDemo extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext context = this.getServletContext();
-        String username = "yiyiwang";
-        context.setAttribute("username",username);
-
+        String url = context.getInitParameter("url");
+        resp.getWriter().print(url);
     }
 
     @Override
