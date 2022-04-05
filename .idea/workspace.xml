@@ -2,51 +2,27 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="servlet-01:war" />
+      <artifact name="reponse:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8ace779-59b8-47d8-a04c-2376ce9bbcf5" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/servlet_01_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/servlet_01_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jsp_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/servlet_01_war/servlet-01_war.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/servlet_01_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/servlet_01_war_exploded/WEB-INF/classes/com/bantanger/servlet/GetServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/servlet_01_war_exploded/WEB-INF/classes/com/bantanger/servlet/HelloServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/servlet_01_war_exploded/WEB-INF/classes/com/bantanger/servlet/PropertiesServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/servlet_01_war_exploded/WEB-INF/classes/com/bantanger/servlet/ServletDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/servlet_01_war_exploded/WEB-INF/classes/com/bantanger/servlet/ServletDemo02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/servlet_01_war_exploded/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/servlet_01_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/servlet_01_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bantanger/servlet/HelloServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/servlet-01/com/bantanger/servlet/GetServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/servlet-01/com/bantanger/servlet/HelloServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/servlet-01/com/bantanger/servlet/PropertiesServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/servlet-01/com/bantanger/servlet/ServletDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/servlet-01/com/bantanger/servlet/ServletDemo02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/servlet-01/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet-01/src/main/java/com/bantanger/servlet/GetServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet-01/src/main/java/com/bantanger/servlet/PropertiesServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet-01/src/main/java/com/bantanger/servlet/ServletDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet-01/src/main/java/com/bantanger/servlet/ServletDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet-01/src/main/resource/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a8ace779-59b8-47d8-a04c-2376ce9bbcf5" name="Changes" comment="Commit-2022-04-02">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/reponse_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/reponse_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reponse/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reponse/src/main/java/com/bantanger/reponse/FileServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reponse/src/main/java/com/bantanger/reponse/ImageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reponse/src/main/java/com/bantanger/reponse/RedirectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reponse/src/main/java/com/bantanger/reponse/RequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reponse/src/main/resource/shipe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reponse/src/main/webapp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-01/src/main/java/com/bantanger/servlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-01/src/main/java/com/bantanger/servlet/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-01/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="jsf" />
         <option value="Class" />
       </list>
     </option>
@@ -102,7 +79,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/servlet-01/src/main/webapp/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/reponse/src/main/webapp/WEB-INF/web.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -111,6 +88,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java 学习项目集合\JavaWeb_Study_Demo\reponse\src\main\resource" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="excludedTypes">
@@ -123,9 +105,9 @@
     <configuration name="Tomcat 9.0.60" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.60" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="servlet-01:war">
+        <artifact name="reponse:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/servlet_01_war" />
+            <option name="CONTEXT_PATH" value="/r" />
           </settings>
         </artifact>
       </deployment>
@@ -205,7 +187,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="servlet-01:war" />
+          <artifact name="reponse:war" />
         </option>
       </method>
     </configuration>
@@ -227,8 +209,17 @@
       <workItem from="1648890766434" duration="1383000" />
       <workItem from="1648892201776" duration="16000" />
       <workItem from="1648892249295" duration="41000" />
-      <workItem from="1648892327697" duration="4540000" />
+      <workItem from="1648892327697" duration="8262000" />
+      <workItem from="1649140441237" duration="9203000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit-2022-04-02">
+      <created>1648907829079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648907829079</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,5 +235,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Commit-2022-04-02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-2022-04-02" />
   </component>
 </project>
